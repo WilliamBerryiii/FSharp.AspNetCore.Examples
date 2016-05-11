@@ -1,0 +1,57 @@
+source https://nuget.org/api/v2
+source https://api.nuget.org/v3/index.json
+source https://www.myget.org/F/aspnetcidev/api/v3/index.json
+source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
+
+framework: auto-detect 
+redirects: on
+
+// AspNetCore
+nuget Microsoft.AspNetCore.Mvc
+nuget Microsoft.AspNetCore.Server.Kestrel
+nuget Microsoft.AspNetCore.SignalR.Server
+nuget Microsoft.AspNetCore.StaticFiles
+nuget Microsoft.AspNetCore.WebSockets.Server
+
+nuget Microsoft.Extensions.Configuration
+nuget Microsoft.Extensions.Configuration.Json
+nuget Microsoft.Extensions.Configuration.EnvironmentVariables
+
+// DotNetCore
+nuget Microsoft.NETCore.App
+
+// DotNetStd
+nuget Libuv framework: .NETStandard1.0
+
+// FSharp 
+nuget FSharp.Core redirects: force
+nuget FSharp.Configuration
+
+// External Libs
+nuget log4net
+nuget Freya
+
+
+// Tests
+nuget NUnit ~> 3
+nuget NUnit.Runners ~> 3
+
+group Build
+  source https://nuget.org/api/v2
+  
+  nuget SourceLink.Fake
+  nuget FAKE
+  nuget FSharp.Formatting
+
+  github fsharp/FAKE modules/Octokit/Octokit.fsx
+
+group Test
+  source https://nuget.org/api/v2
+  
+  nuget NUnit ~> 3
+	nuget NUnit.Runners ~> 3
+
+
+
+  
+

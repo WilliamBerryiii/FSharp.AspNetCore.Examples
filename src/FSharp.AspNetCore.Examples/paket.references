@@ -1,0 +1,16 @@
+FSharp.Core
+FSharp.Configuration
+
+Microsoft.AspNetCore.Mvc
+Microsoft.AspNetCore.Server.Kestrel
+Microsoft.AspNetCore.SignalR.Server
+Microsoft.AspNetCore.StaticFiles
+Libuv
+
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Json
+Microsoft.Extensions.Configuration.EnvironmentVariables
+
+Microsoft.NETCore.App
+
+freya

@@ -1,0 +1,25 @@
+type project
+title
+    FSharp.AspNetCore.Examples
+owners
+    William Berry
+authors 
+    William Berry
+projectUrl
+    http://github.com/WilliamBerryiii/FSharp.AspNetCore.Examples
+iconUrl
+    https://raw.githubusercontent.com/WilliamBerryiii/FSharp.AspNetCore.Examples/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/WilliamBerryiii/FSharp.AspNetCore.Examples/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    AspNetCore FSharp Kestrel MVC WebApi
+summary
+    Example AspNetCore Project running on Kestrel in F#
+description
+    Example AspNetCore Project running on Kestrel in F#
+
+
